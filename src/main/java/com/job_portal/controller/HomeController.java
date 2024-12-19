@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	@GetMapping
 	public String homeControllerHandler() {
-		return "GiaThuan";
+		return "Deploy sucessfully!";
 	}
 
 	@GetMapping("/home")
 	public String homeControllerHandler2() {
-		return "GiaThuan2";
+		return "Deploy sucessfully!";
 	}
 }
